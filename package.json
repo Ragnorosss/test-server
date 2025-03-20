@@ -1,0 +1,26 @@
+{
+  "name": "test-moc-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "json-server --watch db.json ",
+    "server": "node api/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.3",
+  "dependencies": {
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "json-server": "link:../.local/share/pnpm/global/5/node_modules/json-server"
+    }
+  }
+}

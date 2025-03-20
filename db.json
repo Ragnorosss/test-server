@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "test",
+      "email": "example@test.com",
+      "password": "qwerty",
+      "telephone": ""
+    },
+    {
+      "id": 2,
+      "userName": "second test",
+      "email": "example2@test.com",
+      "password": "qwerty123",
+      "telephone": ""
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "transactionId": "15325",
+      "createAt": "12.06.2024",
+      "status": "Success",
+      "gameName": "Ernardd",
+      "gameID": "1523523623",
+      "ammount": "153,26",
+      "goods": {
+        "people": "40,500",
+        "price": "279,99$",
+        "discount": "749.99$"
+      }
+    },
+    {
+      "id": "2",
+      "transactionId": "15326",
+      "createAt": "12.06.2024",
+      "status": "Success",
+      "gameName": "Ernardd",
+      "gameID": "1523523623",
+      "ammount": "153,26",
+      "goods": {
+        "people": "40,500",
+        "price": "279,99$",
+        "discount": "749.99$"
+      }
+    },
+    {
+      "id": "3",
+      "transactionId": "15327",
+      "createAt": "12.06.2024",
+      "status": "Success",
+      "gameName": "Ernardd",
+      "gameID": "1523523623",
+      "ammount": "153,26",
+      "goods": {
+        "people": "40,500",
+        "price": "279,99$",
+        "discount": "749.99$"
+      }
+    },
+    {
+      "id": "4",
+      "transactionId": "15328",
+      "createAt": "12.06.2024",
+      "status": "Success",
+      "gameName": "Ernardd",
+      "gameID": "1523523623",
+      "ammount": "153,26",
+      "goods": {
+        "people": "40,500",
+        "price": "279,99$",
+        "discount": "749.99$"
+      }
+    }
+  ]
+}
